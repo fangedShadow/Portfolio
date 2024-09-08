@@ -46,6 +46,7 @@ export default function Contact() {
                         <Image 
                             src={email}
                             width={50}
+                            alt='email'
                         />
                     </div>
                 </a>

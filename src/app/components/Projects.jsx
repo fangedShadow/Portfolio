@@ -40,6 +40,7 @@ export default function Projects() {
                                         className='rounded-md p-1'
                                         width={300}
                                         height={200}
+                                        alt='Hotel management system'
                                     />
                                 </div>
                             </div>
@@ -78,6 +79,7 @@ export default function Projects() {
                                     <Image 
                                         src={msg}
                                         className='rounded-md p-1'
+                                        alt='Messenger'
                                         width={300}
                                         height={200}
                                     />
@@ -119,6 +121,7 @@ export default function Projects() {
                                         src={sb}
                                         className='rounded-md p-1'
                                         width={300}
+                                        alt='Shadow Bank'
                                         height={200}
                                     />
                                 </div>
@@ -129,7 +132,7 @@ export default function Projects() {
                                     Shadow bank
                                 </h1>
                                 <p className='xl:text-base text-sm text-darkGreyWhite text-pretty mr-2'>
-                                Developed a Java-based banking system, "Shadow Bank," featuring robust database interactions with 
+                                Developed a Java-based banking system, &#34;Shadow Bank,&#34; featuring robust database interactions with 
                                 MySQL, secure user authentication, and comprehensive management of customer accounts, 
                                 employee profiles, and approval workflows.
                                 </p>
@@ -153,6 +156,7 @@ export default function Projects() {
                                         src={senti}
                                         className='rounded-md p-1'
                                         width={300}
+                                        alt='Sentimental Analysis'
                                         height={200}
                                     />
                                 </div>
@@ -193,6 +197,7 @@ export default function Projects() {
                                         className='rounded-md p-1'
                                         width={300}
                                         height={200}
+                                        alt='Traffic Prediction'
                                     />
                                 </div>
                             </div>

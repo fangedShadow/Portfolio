@@ -1,6 +1,6 @@
 
 'use client'
-import React, { useEffect, useState } from 'react'
+import React, { useCallback, useEffect, useState } from 'react'
 import logo from '../images/logo-nBG.png'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -22,7 +22,7 @@ function Navbar() {
     setNavVisible(false)
   }
 
-  const handleScroll = () => {
+  const handleScroll = useCallback(() => {
     const curScroll = window.scrollY;
     if(curScroll > lastScrollY && curScroll >100) {
       setNavVisible(false);
@@ -30,7 +30,7 @@ function Navbar() {
       setNavVisible(true);
     }
     setLastScrollY(curScroll);
-  }
+  }, [lastScrollY])
 
   useEffect(()=> {
     window.addEventListener('scroll', handleScroll);
@@ -38,7 +38,7 @@ function Navbar() {
     return () => {
       window.removeEventListener('scroll', handleScroll)
     };
-  }, [lastScrollY])
+  }, [handleScroll])
 
 
   return (

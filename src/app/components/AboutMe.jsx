@@ -25,10 +25,10 @@ export default function AboutMe() {
                 frameworks like React, Express, and Next.js. 
             </p>
             <p className='p-4 md:text-xl text-justify text-darkGreyWhite' >
-                Currently, I’m focused on expanding my skills in cloud computing, AI technologies, and building a better stronger foundation. 
+                Currently, I&#39;m focused on expanding my skills in cloud computing, AI technologies, and building a better stronger foundation. 
                 I thrive on solving complex problems and love creating innovative solutions that blend cutting-edge technologies 
-                with practical applications. Whether it's developing interactive front-end experiences or optimizing back-end functionality, 
-                I’m always excited to learn and grow as a developer.
+                with practical applications. Whether it&#39;s developing interactive front-end experiences or optimizing back-end functionality, 
+                I&#39;m always excited to learn and grow as a developer.
             </p>
         </div>
     </div>

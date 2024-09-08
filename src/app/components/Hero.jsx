@@ -28,6 +28,7 @@ export default function Hero() {
         <div className='md:w-2/5 w-1/2 flex flex-col items-center justify-center h-96'>
               <Image
                 src={main2} 
+                alt='Me'
                 className='min-w-56 w-3/5 h-5/6 rounded-3xl backdrop-hue-rotate-90'
               />
         </div>
