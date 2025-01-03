@@ -62,7 +62,7 @@ function Navbar() {
                   <Link className="hover:text-greyWhite hover:animate-enlarge-text text-2xl" href="#about-me" onClick={offNav}>About</Link>
                   <Link className="hover:text-greyWhite hover:animate-enlarge-text text-2xl" href="#projects" onClick={offNav}>Projects</Link>
                   <Link className="hover:text-greyWhite hover:animate-enlarge-text text-2xl" href="#tech-stack" onClick={offNav}>Tech Stack</Link>
-                  <a className="hover:text-greyWhite hover:animate-enlarge-text text-2xl" href="/Resume.pdf" target="_blank" rel="noopener noreferrer" onClick={offNav}>Resume</a>
+                  <a className="hover:text-greyWhite hover:animate-enlarge-text text-2xl" href="/Resume_BhavpreetSingh.pdf" target="_blank" rel="noopener noreferrer" onClick={offNav}>Resume</a>
                   <Link className="hover:text-greyWhite hover:animate-enlarge-text text-2xl" href="#contact" onClick={offNav}>Contact</Link>
               </div>
           </div>
@@ -86,7 +86,7 @@ function Navbar() {
                     <Link className="hover:text-greyWhite mx-auto hover:animate-enlarge-text text-2xl" href="#about-me" onClick={offdiv}>About</Link>
                     <Link className="hover:text-greyWhite hover:animate-enlarge-text text-2xl" href="#projects" onClick={offdiv}>Projects</Link>
                     <Link className="hover:text-greyWhite hover:animate-enlarge-text text-2xl" href="#tech-stack" onClick={offdiv}>Tech Stack</Link>
-                    <a className="hover:text-greyWhite hover:animate-enlarge-text text-2xl" href="/Resume.pdf" target="_blank" rel="noopener noreferrer onClick={offdiv}">Resume</a>
+                    <a className="hover:text-greyWhite hover:animate-enlarge-text text-2xl" href="/Resume_BhavpreetSingh.pdf" target="_blank" rel="noopener noreferrer onClick={offdiv}">Resume</a>
                     <Link className="hover:text-greyWhite hover:animate-enlarge-text text-2xl" href="#contact" onClick={offdiv}>Contact</Link>
               </div>
             </div>

@@ -6,6 +6,10 @@ html {
   scroll-behavior: smooth;
 }
 
+*{
+  font-family: 'Playfair Display', serif;
+}
+
 .tile{
     width: 15%;
     aspect-ratio: 1 / 1;
@@ -20,11 +24,10 @@ html {
 
 .project_tile{
   min-width: 330px;
-  min-height: 200px
-}
-
-.img{
-  min-width: 300px
+  min-height: 200px;
+  @screen xs {
+    min-width: 200px;
+  }
 }
 
 .hovText:hover h1 {

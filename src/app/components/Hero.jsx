@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 const playfairDisplay = Playfair_Display({
   subsets: ['latin'],
-  weight: ['500', '700'], // You can customize the weights as needed
+  weight: ['500', '700'],
 });
 
 export default function Hero() {
@@ -17,12 +17,12 @@ export default function Hero() {
             <h1 className='text-greyWhite md:text-4xl  hidden md:block mx-24'>Hi,</h1>
             <h1 className='text-greyWhite md:text-5xl  hidden md:block mx-24'> I am <span className='text-mainRed'>Bhavpreet Singh</span></h1>
             <h2 className='text-darkGreyWhite  md:text-xl hidden md:block md:text-left text-center text-lg mx-24'>
-                Full Stack Devloper
+                Full Stack Developer
             </h2>
             <h1 className='text-greyWhite text-3xl md:hidden block text-center'>Hi, I am </h1>
             <span className=' text-3xl md:hidden block text-center text-mainRed'>Bhavpreet Singh</span>
             <h2 className='text-darkGreyWhite text-base md:hidden block md:text-left text-center'>
-                Full Stack Devloper
+                Full Stack Developer
             </h2>
         </div>
         <div className='md:w-2/5 w-1/2 flex flex-col items-center justify-center h-96'>

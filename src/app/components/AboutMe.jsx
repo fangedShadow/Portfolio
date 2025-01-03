@@ -10,7 +10,7 @@ const playfairDisplay = Playfair_Display({
 
 export default function AboutMe() {
   return (
-    <div className={`text-greyWhite ${playfairDisplay.className} sect lg:w-5/6 w-11/12 mt-10 md:mt-0 mb-20`} id='about-me'>
+    <div className={`text-greyWhite ${playfairDisplay.className} sect w-[99%] mt-10 md:mt-0 mb-20`} id='about-me'>
         <div className='flex flex-col'>
             <div className='flex flex-row gap-6'>
                 <div className=' border-solid border-mainRed border-2 md:w-24 w-16 my-auto ml-4'></div>
@@ -19,7 +19,7 @@ export default function AboutMe() {
                 </h1>
             </div>
             <p className='p-4 md:text-xl text-justify text-darkGreyWhite'>
-                I am senior at NYIT and about to graduate this fall. I have strong expertise in 
+                I am a recent graduate from NYIT. I have strong expertise in 
                 programming languages like Java, Python, and JavaScript, along with hands-on experience
                 in MongoDB, MySQL, and Node.js. I enjoy building dynamic web applications using modern 
                 frameworks like React, Express, and Next.js. 

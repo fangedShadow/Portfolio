@@ -35,6 +35,9 @@ module.exports = {
         'flip-card': 'flip 1.75s ease-in-out forwards',
 
       },
+      screens: {
+        xs: { max: '400px' }, 
+      },
     },
   },
   plugins: [],
