@@ -72,7 +72,7 @@ export default function Projects() {
                         </a>
                     </div>
                     <div>
-                        <a href="https://github.com/fangedShadow/SE_Project" target="_blank" rel="noopener noreferrer">
+                        <a href="https://hotel-feedback-portal.onrender.com" target="_blank" rel="noopener noreferrer">
                             <div className='project_tile flex justify-center  h-full sm:hover:rounded-lg sm:hover:bg-hoverBlack sm:hover:cursor-pointer sm:hover:animate-enlarge-text'>
                                 <div className='flex flex-col pb-2 pl-1 items-center hover:bg-hoverBlack hover:cursor-pointer hover:rounded-lg sm:hover:none sm:hover:animate-none hover:animate-enlarge-text'>
                                     <h1 className='sm:hidden text-lg text-greyWhite font-bold'>
