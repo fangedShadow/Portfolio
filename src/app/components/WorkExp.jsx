@@ -4,7 +4,7 @@ import { Playfair_Display } from 'next/font/google';
 
 const playfairDisplay = Playfair_Display({
     subsets: ['latin'],
-    weight: ['500', '700'], // You can customize the weights as needed
+    weight: ['500', '700'],
 });
 
 
@@ -21,13 +21,13 @@ function WorkExperience() {
                 </div>
                 <div className='flex justify-around p-2 gap-4 flex-col ml-4'>
                     <div>
-                        <div className='project_tile flex justify-center h-full sm:hover:rounded-lg sm:hover:bg-hoverBlack sm:hover:cursor-pointer sm:hover:animate-enlarge-text'>
+                        <div className='project_tile flex justify-center h-full sm:hover:rounded-lg sm:hover:bg-hoverBlack sm:hover:cursor-pointer sm:hover:animate-enlarge-text pb-2'>
                             <div className='flex flex-col pb-2 pl-1 items-center hovText hover:bg-hoverBlack hover:cursor-pointer hover:rounded-lg sm:hover:none sm:hover:animate-none hover:animate-enlarge-text'>
                                 <h1 className='sm:hidden text-lg text-greyWhite font-bold '>
                                     One Community Global
                                 </h1>
                                 <div className='img flex sm:items-end items-center pt-4 sm:flex-row flex-col'>
-                                    <h3 className='text-lg text-greyWhite font-bold'>Jan 2025 - Present</h3>
+                                    <h3 className='text-lg text-greyWhite font-bold'>Jan 2025 - Dec 2025</h3>
                                     <span className='sm:hidden text-small text-darkGreyWhite text-justify'>
                                         At One Community Global, I contribute to the Highest Good Network project,
                                         and its other related platform, where I help in development of new features, fixed bugs,
